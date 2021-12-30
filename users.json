@@ -1,0 +1,22 @@
+[
+ {
+  "id": 1,
+  "nombre": "Hadassa Elisabeh",
+  "apellido": "Guerrero Garcia",
+  "email": "Hadassa@gmail.com",
+  "edad": 1,
+  "altura": 1,
+  "activo": false,
+  "fechaCreacion": "16/08/2020"
+ },
+ {
+  "id": 3,
+  "nombre": "yissel",
+  "apellido": "garcia",
+  "email": "yissel@gmail.com",
+  "edad": 38,
+  "altura": 10,
+  "activo": true,
+  "fechaCreacion": "16/08/2020"
+ }
+]
