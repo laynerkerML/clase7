@@ -45,7 +45,8 @@ func (u *User) GetAll() gin.HandlerFunc {
 			return
 		}
 
-		c.JSON(http.StatusOK, web.NewResponse(http.StatusOK, &response{users}, ""))
+		//c.JSON(http.StatusOK, web.NewResponse(http.StatusOK, &response{users}, ""))
+		c.JSON(http.StatusOK, &response{users})
 	}
 }
 
