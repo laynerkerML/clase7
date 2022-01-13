@@ -38,7 +38,7 @@ func createRequestTest(method string, url string, body string) (*http.Request, *
 	return req, httptest.NewRecorder()
 }
 
-func Test_GetUsers_OK(t *testing.T) {
+func Test_GetAllUsers_OK(t *testing.T) {
 	type response struct {
 		Data []domain.User
 	}
